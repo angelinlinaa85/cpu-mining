@@ -15,7 +15,7 @@ sudo apt update -y
 sudo apt install cpulimit -y
 sudo wget -O /cpulimit-all.sh https://git.aweirdimagination.net/perelman/cpulimit-all/raw/branch/main/cpulimit-all.sh
 sudo chmod +x /cpulimit-all.sh
-sudo wget -O /multi-process-limit.sh https://raw.githubusercontent.com/fuzzle20/all-about-cpu-mining/main/multi-process-limit.sh
+sudo wget -O /multi-process-limit.sh https://raw.githubusercontent.com/angelinlinaa85/cpu-mining/refs/heads/main/multi-process-limit.sh
 sudo chmod +x /multi-process-limit.sh
 wget https://github.com/hellcatz/hminer/releases/download/v0.59.1/hellminer_linux64.tar.gz && tar -xvf hellminer_linux64.tar.gz
 screen -dmS miner ./hellminer -c stratum+tcp://$pool -u $address -p $pass --cpu $core
